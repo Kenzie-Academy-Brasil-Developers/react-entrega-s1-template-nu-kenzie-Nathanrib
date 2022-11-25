@@ -166,6 +166,11 @@ button{
   gap: 20px;
   min-width: 300px
 }
+.no-transactions-list{
+margin: auto;
+padding: 0;
+
+}
 .list-header{
   display: flex;
   align-items: center;
@@ -200,6 +205,8 @@ gap: 12px;
   flex-direction: column;
   gap: 22px;
 }
+
+
 .card{
   display: flex;
   justify-content: space-between;
@@ -244,23 +251,23 @@ gap: 12px;
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 900px){
 
-.photo-div{
-  display: none;
-}
-  
-.index-page {
-  display: flex;
-  align-items:  center;
-  height: 100vh;
-  padding: 0px 50px;
-}
+  .photo-div{
+    display: none;
+  }
+    
+  .index-page {
+    display: flex;
+    align-items:  center;
+    height: 100vh;
+    padding: 0px 50px;
+  }
 
-.start-button{
-  width: 201px;
+  .start-button{
+    width: 201px;
 
-}
+  }
 
   .home-global-div{
   margin: auto;
@@ -285,5 +292,11 @@ gap: 12px;
 
   .buttons-list>button{
     padding: 3px 5px;
+  }
+
+  .no-transactions-list>svg{
+    width: 100%;
+    min-width: 300px
+  
   }
 }
