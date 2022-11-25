@@ -1,6 +1,6 @@
 const IndexIlustration = () =>  {
 return(
-    <div>
+    <div className="photo-div">
         <svg width="593" height="593" viewBox="0 0 593 593" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="296.5" cy="296.5" r="296.5" fill="#E064CC" fill-opacity="0.05"/>
 <circle cx="296.5" cy="296.5" r="258.476" fill="#E064CC" fill-opacity="0.05"/>
